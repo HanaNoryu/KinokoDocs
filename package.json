@@ -1,0 +1,22 @@
+{
+  "name": "kinokodocs",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.31.0",
+    "eslint": "^8.27.0",
+    "typescript": "^4.9.3",
+    "vitepress": "1.0.0-alpha.29"
+  }
+}

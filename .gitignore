@@ -1,0 +1,13 @@
+# dev
+node_modules
+*.log
+
+# lock
+yarn.lock
+package-lock.json
+pnpm-global/
+
+# custom
+.vscode
+.idea
+.DS_Store
