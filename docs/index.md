@@ -1,16 +1,16 @@
 ---
 layout: home
 
-title: Kitty
-titleTemplate: 一个Vue3组件库
+title: KinokoDocs
+titleTemplate: 个人在互联网上的各种收藏
 
 hero:
-  name: Kitty
-  text: 一个Vue3组件库
-  tagline: 没啥特点仅供学习
+  name: KinokoDocs
+  text: 个人在互联网上的各种收藏
+  tagline: 个人使用，资源来自于互联网，仅供学习
   image:
-    src: /logo.png
-    alt: Kitty
+    src: https://image.hananoryu.cn/images/img_snowmiku.webp
+    alt: KinokoDocs
   actions:
     - theme: brand
       text: 开始

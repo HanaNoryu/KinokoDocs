@@ -2,14 +2,14 @@
   "name": "kinokodocs",
   "version": "0.1.0",
   "private": true,
-  "description": "",
+  "description": "Various collections of individuals on the Internet",
   "author": "HanaNoryu <HanaNoryu@outlook.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+"
   },
-  "keywords": [],
+  "keywords": ["code repository"],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
