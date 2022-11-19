@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { version } from '../../package.json'
 
 export default defineConfig({
   title: 'KinokoDocs',
@@ -9,7 +8,7 @@ export default defineConfig({
   cleanUrls: 'without-subfolders',
 
   head: [
-    ['link', { rel: 'shortcut icon', href: '', type: 'image/x-icon' }],
+    ['link', { rel: 'shortcut icon', href: 'https://image.hananoryu.cn/images/22%20-%20%E5%89%AF%E6%9C%AC.ico', type: 'image/x-icon' }],
   ],
 
   markdown: {
@@ -50,10 +49,11 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: 'Guide', link: '/guide/what-is-vitepress', activeMatch: '/guide/' },
+    { text: '关于', link: '/about/site', activeMatch: '/about/' },
     { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
+    { text: 'CSS样式库', link: '/styles-library', activeMatch: '/styles-library/' },
     {
-      text: version,
+      text: '文章列表',
       items: [
         {
           text: 'Changelog',
