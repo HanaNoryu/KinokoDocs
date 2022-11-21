@@ -50,7 +50,6 @@ export default defineConfig({
 function nav() {
   return [
     { text: '关于', link: '/about/site', activeMatch: '/about/' },
-    { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
     { text: 'CSS样式库', link: '/styles-library', activeMatch: '/styles-library/' },
     {
       text: '文章列表',

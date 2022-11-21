@@ -13,8 +13,8 @@ hero:
     alt: KinokoDocs
   actions:
     - theme: brand
-      text: 开始
-      link: /guide/
+      text: 关于
+      link: /about/site
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/HanaNoryu/KinokoDocs
