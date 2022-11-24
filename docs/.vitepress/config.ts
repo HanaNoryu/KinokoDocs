@@ -50,9 +50,26 @@ export default defineConfig({
 function nav() {
   return [
     { text: '关于', link: '/about/site', activeMatch: '/about/' },
+    {
+      text: '组件库',
+      items: [
+        {
+          text: 'Web Component',
+          link: '/',
+        },
+        {
+          text: 'Vue',
+          link: '/',
+        },
+        {
+          text: 'React',
+          link: '/',
+        },
+      ],
+    },
     { text: 'CSS样式库', link: '/styles-library', activeMatch: '/styles-library/' },
     {
-      text: '文章列表',
+      text: '收藏文章',
       items: [
         {
           text: 'Changelog',
